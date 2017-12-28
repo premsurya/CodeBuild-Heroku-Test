@@ -30,6 +30,6 @@ phases:
         - git config --global user.email "prem.nambi@gmail.com"
         - git config --global user.name "prem.nambi@gmail.com"
         - git remote set-url --add origin https://git.heroku.com/still-beyond-24839.git
-        - heroku git:remote -a still-beyond-24839
+        - heroku git:remote -a still-beyond-24839 --ssh-git
         - git push heroku master
         - echo "All success"
