@@ -24,7 +24,7 @@ phases:
   #post_build:
     #commands:
         - sudo apt-get install git -y
-        - sudo snap install heroku --classic
+        - wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
         - git init
         - git add .
         - git commit -m "Ready for deployment"
