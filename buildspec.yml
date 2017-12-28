@@ -25,6 +25,7 @@ phases:
     #commands:
         - sudo apt-get install git -y
         - wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+        - heroku create
         - git init
         - git add .
         - git config --global user.email "premnamb@amazon.com"
