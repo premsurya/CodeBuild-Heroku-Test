@@ -1,0 +1,45 @@
+{
+  "name": "still-beyond-24839",
+  "version": "0.1",
+  "author": "Nodejitsu Inc. <support@nodejitsu.com>",
+  "description": "A very basic node.js helloworld application",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/still-beyond-24839.git"
+  },
+  "keywords": [
+    "nodeapps",
+    "helloworld"
+  ],
+  "homepage": "http://nodeapps.github.com/helloworld",
+  "contributors": [
+    {
+      "name": "Marak Squires",
+      "email": "marak.squires@gmail.com"
+    },
+    {
+      "name": "Joshua Holbrook",
+      "email": "josh.holbrook@gmail.com"
+    },
+    {
+      "name": "Farrin Reid",
+      "email": "blakmatrix@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/nodeapps/helloworld/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nodeapps/helloworld/raw/master/LICENSE"
+    }
+  ],
+  "analyze": false
+}
