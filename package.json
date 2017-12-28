@@ -12,6 +12,9 @@
     "nodeapps",
     "helloworld"
   ],
+  "scripts": {
+    "start": "node ./bin/server"
+  },
   "homepage": "http://nodeapps.github.com/helloworld",
   "contributors": [
     {
