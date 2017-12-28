@@ -28,8 +28,8 @@ phases:
         - heroku create
         - git init
         - git add .
-        - git config --global user.email "premnamb@amazon.com"
-        - git config --global user.name "PremNambi"
+        - git config --global user.email "prem.nambi@gmail.com"
+        - git config --global user.name "prem.nambi@gmail.com"
         - heroku git:remote -a still-beyond-24839
         - git push heroku master
         - echo "All success"
